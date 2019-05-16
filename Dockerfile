@@ -1,5 +1,6 @@
 FROM jfialkowski/centos7base:latest
 COPY main /tmp/main
+USER root
 RUN chmod +x /tmp/main
 LABEL org.label-schema.schema-version="1.0" \
     org.label-schema.name="CentOS Base Image" \
