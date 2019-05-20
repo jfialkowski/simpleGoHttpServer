@@ -14,7 +14,7 @@ func about(w http.ResponseWriter, r *http.Request) {
 }
 
 func contact(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>Contact</h1>")
+	fmt.Fprintf(w, "<h1>Contact Us</h1>")
 }
 
 func main() {
